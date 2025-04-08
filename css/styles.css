@@ -139,6 +139,11 @@ overflow:hidden;
 /* Hero section */
 .hero-section {
 padding: 272px 0 ;
+background-image: url('../images/couple.jpg');
+background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+background-attachment: fixed;
 }
 
 .hero-title {
@@ -221,6 +226,9 @@ flex-basis: calc( (100% - 40px ) / 3);
   padding: 24px;
   border: 1px solid lightgray; /*remove*/
   border-radius: 16px;
+  height: 444px;
+  background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, var(--color-primary-dark) 100%);
+
 }
 .formats-title {
   margin-bottom: 80px;
@@ -254,4 +262,12 @@ flex-basis: calc( (100% - 40px ) / 3);
 
 .adress-copyright {
   font-size: 14px;
+}
+
+.footer {
+  background-image: url('../images/footer.png');
+  background-color: var(--color-primary-dark);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
